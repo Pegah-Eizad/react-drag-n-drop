@@ -1,5 +1,12 @@
 .list-container {
-  width: 100px;
-  height: 50px;
+  width: 500px;
+  height: 352px;
   border: solid white 2px;
+}
+
+.list-item-container {
+    width: 500px;
+    height: 70px;
+    border: solid white 1px;
+    border-top: none;
 }
