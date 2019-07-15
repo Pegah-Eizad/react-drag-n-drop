@@ -1,5 +1,6 @@
 .list-item {
-    width: 450px;
+    width: 480px;
     height: 50px;
-    background: salmon;
+    background: white;
+    border: 3px solid #c49a9a;
 }

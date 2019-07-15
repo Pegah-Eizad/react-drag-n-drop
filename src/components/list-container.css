@@ -9,4 +9,7 @@
     height: 70px;
     border: solid white 1px;
     border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
