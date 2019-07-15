@@ -12,7 +12,9 @@ class ListContainer extends Component {
       onDrop(ev) {
         ev.preventDefault();
         var data = ev.dataTransfer.getData("text");
-        ev.target.appendChild(document.getElementById(data));
+        if (data === 'draggable') {
+            ev.target.appendChild(document.getElementById(data));
+        }
       }
 
     render() {

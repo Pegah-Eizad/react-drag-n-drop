@@ -9,7 +9,7 @@ class ListItem extends Component {
 
     render() {
         return (
-            <div className="list-item" id="x" draggable onDragStart={(e) => this.onDragStart(e)}>
+            <div className="list-item" id="draggable" draggable onDragStart={(e) => this.onDragStart(e)}>
             </div>
           );
     }
